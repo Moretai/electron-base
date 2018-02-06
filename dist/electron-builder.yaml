@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: assets
+files:
+  - build/**/*
+  - node_modules/**/*
+extraMetadata:
+  main: build/main.js
+appId: com.mook
+extends: react-cra
+electronVersion: 1.7.12
